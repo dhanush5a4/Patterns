@@ -259,21 +259,21 @@ A B C D E
 
 """
 
-n=int(input())
-for i in range(n):
-    for j in range(n-i-1):
-        print(" ",end=' ')
-    breakPoint=(2*i+1)/2
-    ch='A'
-    for j in range(2*i+1):
-        print(ch,end=' ')
-        if j<breakPoint:
-            ch=chr(ord(ch)+1)
-        else:
-            ch=chr(ord(ch)-1)
-    for j in range(n-i-1):
-        print(" ",end=' ')
-    print()
+# n=int(input())
+# for i in range(n):
+#     for j in range(n-i-1):
+#         print(" ",end=' ')
+#     breakPoint=(2*i+1)/2
+#     ch='A'
+#     for j in range(2*i+1):
+#         print(ch,end=' ')
+#         if j<breakPoint:
+#             ch=chr(ord(ch)+1)
+#         else:
+#             ch=chr(ord(ch)-1)
+#     for j in range(n-i-1):
+#         print(" ",end=' ')
+#     print()
     
 """"
 
